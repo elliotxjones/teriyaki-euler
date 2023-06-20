@@ -23,14 +23,14 @@ local function get5Multiples(sum, count)
    end
 end
 local function getIterativeCount(number)
-   return (number * number)/2 + number/2
+   return ((number * number) + number) / 2
 end
 function main()
-   print((getIterativeCount(333) * 3) + (getIterativeCount(200) * 5) - (getIterativeCount(66) * 15))
+   print((getIterativeCount(333) * 3) + (getIterativeCount(199) * 5) - (getIterativeCount(66) * 15))
    print(get3Multiples(0, 0))
    print((getIterativeCount(333) * 3))
    print(get5MultiplesSimple(0, 0))
-   print((getIterativeCount(200) * 5))
+   print((getIterativeCount(199) * 5))
 
 end
 main()
