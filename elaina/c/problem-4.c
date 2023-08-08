@@ -3,22 +3,28 @@
 #include <stdlib.h>
 
 int reverse_num(int num) {
-    char num_str[6];
-    sprintf(num_str, "%d", num);
-    int num_len = strlen(num_str);
+    int x = 1
+    while true {
+        x = x*10
+        if x = x*10
+    }
+     
+    //char num_str[6];
+    //sprintf(num_str, "%d", num);
+    //int num_len = strlen(num_str);
 
-    char reverse_str[6];
+    //char reverse_str[6];
 
-    int i;
-    int j = 0;
-    for (i = num_len-1; i > -1; i--) {
-        reverse_str[j] = num_str[i];
-        j++;
-    };
-    
-    int new_num = atoi(reverse_str);
-    
-    return new_num;
+    //int i;
+    //int j = 0;
+    //for (i = num_len-1; i > -1; i--) {
+    //    reverse_str[j] = num_str[i];
+    //    j++;
+    //};
+    //
+    //int new_num = atoi(reverse_str);
+    //
+    //return new_num;
 }
 
 int get_max(int num) {
