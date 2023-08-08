@@ -1,5 +1,5 @@
 
-local function getSmallestFactor(number)
+function getSmallestFactor(number)
    for i = 2, number do
       if number % i == 0 then
          return i
@@ -8,11 +8,11 @@ local function getSmallestFactor(number)
    return number
 end
 
-local function isPrime(number)
+function isPrime(number)
    return (number == getSmallestFactor(number))
 end
 
-local function getFactors(number)
+function getFactors(number)
    local factors = {}
    repeat
       local factor = getSmallestFactor(number)
